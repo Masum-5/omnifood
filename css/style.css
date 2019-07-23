@@ -1,0 +1,659 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+h1{
+    color: #1B1B1B;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+/************topber start*************/
+
+#topber{
+    height: 90px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%);
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo img{
+   padding: 20px;
+}
+#topber .menu{
+    float: left;
+    width: 70%;
+}
+#topber .menu ul{
+    float: right;
+    margin-top: 35px;
+}
+
+#topber .menu ul li{
+    display: inline;
+}
+#topber ul li a{
+    padding: 10px 20px;
+    color: #fff;
+    transition: .4s;
+    font-size: 14px;
+    border-radius: 6px;
+}
+#topber a:hover{
+    color: #B4C1C5;  
+}
+#topber .button{
+    background: #EE8031;
+    color: #fff;
+}
+
+/************topber end*************/
+/************banner start***********/
+#banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-bg.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 60px;
+    text-align: center;
+    color: #fff;
+    
+}
+#banner .heading{
+    padding: 80px 0 30px 0
+}
+#banner .heading h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1.1;
+}
+#banner .heading span{
+    font-size: 40px;
+    font-weight: 600;
+}
+#banner .buttons{
+    padding: 30px 0 80px 0;
+}
+#banner .buttons a{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    display: inline;
+    padding: 10px 25px;
+    transition: all .4s;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    margin: 0 10px;
+    
+}
+#banner .buttons .button-1{
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%);
+}
+#banner .buttons .button-2:hover{
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%);
+}
+#topber .icon{
+    color: #fff;
+}
+#topber .icon i:hover{
+
+}
+/************banner end*************/
+
+
+/************food fast start************/
+
+#food-fast{
+    padding: 80px ;
+    text-align: center;
+    background: #E9E9E9;
+}
+#food-fast .food-fast-content{} 
+#food-fast .food-fast-content h1{
+    padding: 0 0 10px 0;
+}
+#food-fast .food-fast-content p{
+    padding: 0 20%;
+    margin-bottom: 70px;
+}
+/*******************food fast menu************************/
+#food-fast .menu{
+    width: 100%;
+
+}
+#food-fast .menu .item{
+    padding: 15px;
+    width: 23%;
+    margin: 1%;
+    background: #FFFFFF;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#food-fast .item .img{
+    height: 100px;
+    width: 100px;
+    
+    border-radius: 50px;
+    background-repeat: 50px;
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%);
+    border-radius: 50px;
+    margin: 20px auto;
+}
+#food-fast .item .img i{
+    line-height: 100px;
+    font-size: 50px;
+    color: #fff;
+}
+#food-fast .item h3{
+    font-size: 20px;
+    padding: 15px 0 0 0;
+    text-transform: uppercase;
+    color: #353535;
+}
+#food-fast .item .span{
+    height: 2px;
+    width: 100%;
+    background: #EEEEEE;
+    margin-bottom: 20px;
+}
+#food-fast .item p{
+    color: #4E4E4E;
+    padding: 10px 10%;
+    
+}
+
+/************food fast end**************/
+/************ how to works start  **************/
+
+#works{
+    padding: 80px 0;
+}
+#works .text-content{
+    text-align: center;
+}
+#works .text-content h1{
+    padding: 20px 0;
+} 
+
+#works .box{
+    width: 100%;
+}
+#works .box .mobile{
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+#works .mobile img{
+    float: right;
+    padding: 50px 10px 0 0;
+}
+#works .content{
+    float: left;
+    width: 50%;
+    padding: 90px 0 20px 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+#works .content .item{}
+#works .content .item .item-1{
+    padding: 20px 0;
+   
+}
+#works .item-1 h1{
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border: 2px solid red;
+    border-radius: 50px;
+    float: left;
+}
+#works .item-1 p{
+    padding: 0 13%;
+    
+}
+
+.mobile-icon{
+    width: 100%;
+    padding: 20px 0;
+}
+#mobile-icon .img{}
+#mobile-icon .img a{}
+#mobile-icon .img img{}
+
+/*
+.mobile-icon .icon{
+    height: 80px;
+    float: left;
+    width: 48%;
+    background: #000;
+    margin: 1%;
+    border-radius: 6px;
+}
+.mobile-icon i{
+    float: left;
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+}
+.mobile-icon h5{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+}
+.mobile-icon h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 18px;
+}
+*/
+
+
+/************  how to works end **************/
+
+/**************our citeis start*************/
+
+#cities{
+    padding: 70px 0;
+    background: #E9E9E9;
+}
+#cities .text-content{
+    text-align: center;
+}
+#cities .text-content h1{
+    margin-bottom: 20px;
+}
+
+#cities .cities{
+    width: 100%;
+    padding: 50px 0;
+    
+}
+#cities .cities-item{
+    width: 25%;
+    float: left;
+}
+#cities h3{
+    color: #494949;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 15px 2%;
+}
+#cities ul{
+    
+}
+#cities ul li{
+    font-size: 15px;
+    line-height: 30px;
+    color: #6F6F6F;
+}
+#cities i{
+    color: #DE7252;
+    padding: 0 10px 0 10px;
+}
+
+
+/**************our citeis end*************/
+/**************testimonials start*************/
+#testimonials{
+    padding: 70px 0;
+    background: linear-gradient(rgba(255, 0, 0, 0.6), rgba(255, 0, 0, 0.6)), url(../img/testimonial-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#testimonials .text-content{
+   color: #fff;
+    position: relative;
+    
+}
+#testimonials .text-content h1{
+     color: #fff;
+     text-align: center;
+     padding: 0 0 40px 0;
+}
+#testimonials .text-content img{
+    position: absolute;
+    top: 85px;
+    left: 280px;
+}
+#testimonials .text-content p{
+    color: #fff;;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22x;
+    width: 50%;
+    padding: 0 25%
+}
+#testimonials .testimonials-profile{
+    width: 30%;
+    margin: 0 auto;
+    padding: 50px;
+    margin: 0 auto;
+}
+#testimonials .testimonials-profile img{
+    float: left;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50px;
+}
+#testimonials .testimonials-profile h3{
+    text-transform: uppercase;
+    font-size:18px;
+    color: #fff;
+    margin-left: 120px;
+    margin-top: 23px;
+    font-weight: 300;
+}
+#testimonials .testimonials-profile h5{
+    text-transform: uppercase;
+    font-size:18px;
+    color: #fff;
+    margin-left: 120px;
+    font-weight: 300;
+    
+}
+#testimonials .icon{
+   padding: 30px 0 0 0;
+    text-align: center;
+}
+#testimonials .icon i{
+    color: #fff;
+}
+
+
+/**************testimonials end*************/
+/**************our plans start*************/
+
+
+#plans{
+    padding: 70px 0;
+    background: #E9E9E9;
+}
+#plans .text-content{
+    text-align: center;
+    padding-bottom: 70px;
+}
+#plans .plans{
+    width: 100%;
+    
+}
+#plans .plans .plans-item{
+    padding: 15px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 0 1.5%;
+    transition: all .5s;
+}
+#plans .plans .plans-item:hover{
+    background: #DB4F26;
+    color: #fff;
+}
+#plans .plans .plans-item:hover li{
+    color: #fff;
+}
+#plans .plans .plans-item h3{
+    font-size: 35px;
+    font-weight: 600;
+    color: #181818;
+    text-transform: uppercase;
+    padding: 10px 0;
+    
+}
+#plans .plans .plans-item:hover h3{
+    color: #fff;
+}
+#plans .plans .plans-item h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#plans .plans .plans-item h2 small{
+    font-size: 30px;
+    color:  #181818;
+    font-weight: 400;
+}
+#plans .plans .plans-item:hover h2{
+    color: #fff;
+}
+#plans .plans .plans-item:hover small{
+    color: #fff;
+}
+#plans .plans .plans-item .span{
+    height: 1px;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+#plans .plans .plans-item li{
+    text-align: left; 
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #DB4F26;
+    
+}
+#plans .plans .plans-item li:hover{
+    color: #fff;
+}
+#plans .plans .plans-item i{
+    padding: 10px;
+}
+#plans button{
+    margin: 40px 0;
+    padding: 10px 20px;
+    border: 2px solid #DB4F26;
+    background: transparent;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: .5s;
+    
+    
+}
+#plans button:hover{
+/*
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%); 
+    border: 2px solid #fff;
+*/
+    border-radius: 10px;
+    color: #fff;
+}
+#plans .plans .plans-item:hover button{
+    color: #fff;
+     border: 2px solid #fff;
+    border-radius: 10px;
+/*
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%); 
+    border: 2px solid #fff;
+*/
+    border-radius: 10px;
+    color: #fff;
+}
+
+/**************our plans end*************/
+/**************get conected start*************/
+
+#connected{
+    width: 35%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+#connected .text-content{
+    text-align: center;
+}
+#connected .text-content h1{
+    padding: 0 0 70px 0;
+}
+#connected form{
+    text-align: center;
+}
+#connected form input{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    background: #E9E9E9;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #797979;
+}
+#connected form placeholder{
+    
+}
+#connected form select{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background: #E9E9E9;
+    font-size: 18px;
+    color: #797979;
+    border: none;
+}
+#connected form button{
+    margin: 30px 0;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-size: 18px; 
+    border: 2px solid linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%);
+    border: 2px solid #DB4F26;
+    border-radius: 10px;
+    color: #171717;
+    transition: all .5s;
+    
+/*
+    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%); 
+    border: 2px solid #fff;
+    border-radius: 10px;
+*/
+}
+#connected form button:hover{
+    background: #123456;
+/*    background: linear-gradient(90deg, rgba(17,173,174,1) 0%, rgba(209,95,29,1) 0%, rgba(237,53,53,1) 100%);*/
+    color: #fff;
+}
+/**************get conected end*************/
+
+
+/**************MAIN OFFICE start*************/
+#office{
+    padding: 70px 0;
+    background: url(../img/footer-bg.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+#office .map{
+    width: 45%;
+    float: left;
+    position: relative;
+    margin-right: 5%;
+}
+#office .map img{
+    width: 100%;
+}
+#office .map i{
+    color: #fff;
+    position: absolute;
+    bottom: 30px;
+    left: 25%;
+    font-size: 25px;
+}
+#office .content{
+    padding: 100px 0;
+    width: 45%;
+    float: left;
+    margin-left: 5%;
+}
+#office .content h1{
+    color: #fff;
+    font-size: 25px;
+}
+#office .content h1 i{
+    color: #fff;
+}
+#office .content p{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-left: 35px;
+}
+#office .content h2{
+    margin-left: 35px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 60px 0 0 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+#office .content ul{
+    margin-left: 25px;
+}
+#office .content ul li{
+    float: left;
+}
+#office .content ul li{
+    height: 40px;
+    width: 40px ;
+    line-height: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+    
+}
+#office .content ul li a{
+    font-size: 30px;
+    box-sizing: border-box;
+    color: #fff;
+}
+#office .content ul li a i{
+    line-height: 40px;
+}
+
+
+
+
+
+
+/**************MAIN OFFICE END*************/
+
+
+
+
+
+
+
+
+
+
+
+
